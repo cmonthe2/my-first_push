@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 # Initialize the counter
 n=1
 # Iterate the loop for 10 times
-while [ $n -le 10 ]
+while [ $n -le 10]
 do
     # Check the value of n
     if [ $n == 6 ]
