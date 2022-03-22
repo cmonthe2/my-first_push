@@ -1,14 +1,13 @@
 #!/bin/bash
-
 echo " SCRITP TO CREATE A BUCKET"
 echo -e "\n"
-echo "enter 1st string"
+echo "#######enter 1st string######"
 read string_1
-echo "enter 2sd string"
+echo "########enter 2nd string#######"
 read string_2
-echo "enter 3rd string"
+echo "#######enter 3rd string#######"
 read string_3
-echo "enter REGION"
+echo "#######enter REGION##########"
 read Region
 
 R_D=${RANDOM:1:2}
