@@ -19,3 +19,4 @@ bucket_to_be_created=$string_1-$string_2-$string_3
 if [ -z $Region ]; then Region=us-east-1 && aws s3api create-bucket --bucket $bucket_to_be_created --region $Region; else aws s3api create-bucket --bucket $bucket_to_be_created --create-bucket-configuration LocationConstraint=$Region; fi
 
 
+
